@@ -7,7 +7,7 @@ from telegram.ext import (
 )
 
 # ================= CONFIG =================
-BOT_TOKEN = os.getenv("8535583017:AAEy8kNpo9499hQs78ktO7w8L-M56V597ak")
+BOT_TOKEN = os.getenv("8535583017:AAEy8kNpo9499hQs78ktO7w8L-M56V597ak") or "8535583017:AAEy8kNpo9499hQs78ktO7w8L-M56V597ak"
 ADMINS = [6520104201]# Replace with your Telegram ID(s)
 
 PROGRAMS_FILE = "program_images.json"
@@ -205,3 +205,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
